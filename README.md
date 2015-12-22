@@ -1,3 +1,3 @@
 # Algorithms
 
-Implementation of basic Algorithms
+Implementation of basic Algorithms in Python

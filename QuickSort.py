@@ -3,9 +3,11 @@ Quick Sort Algorithm
 @author: Prateek Bhat
 """
 
+"""Swapping two items"""
 def swap(a,b):
     return b,a
 
+"""Parts list into two parts while returning index of the element which is at its sorted position"""
 def Partition(arr,p,r):
     ran = arr[r]
     j = p-1
@@ -17,7 +19,7 @@ def Partition(arr,p,r):
 
     return j+1
 
-
+"""Function to call Partition()"""
 def Quicksort(arr,p,r):
     if p<r:
         q = Partition(arr,p,r)
